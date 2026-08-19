@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazilat Bibi | UI/UX & Web Developer Portfolio</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-indigo" href="#">Fazilat.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-semibold">
+                    <li class="nav-item"><a class="nav-link mx-2" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-indigo text-white px-3 ms-2" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center position-relative overflow-hidden text-white" style="background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1470&auto=format&fit=crop') center/cover no-repeat; padding: 120px 0;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-start">
+                    <span class="badge bg-indigo text-white mb-3 px-3 py-2 fw-semibold">BSIT Student & Developer</span>
+                    <h1 class="display-4 fw-bold text-white mb-3">I Design & Build Interactive User Experiences.</h1>
+                    <p class="lead text-light mb-4">Hi, I'm Fazilat Bibi. I bridge the gap between interface design and clean frontend code to build user-friendly digital products.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#work" class="btn btn-indigo btn-lg px-4 py-2 text-white">View My Projects</a>
+                        <a href="mailto:fazilatb548@gmail.com" class="btn btn-outline-light btn-lg px-4 py-2">Let's Chat</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center d-none d-lg-block">
+                    <!-- Professional Tech Girl Illustration Overlay -->
+                    <div class="avatar-container position-relative p-2 rounded-4 shadow-lg" style="background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1);">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop" alt="Professional Tech Developer" class="img-fluid rounded-4 shadow" style="max-height: 400px; width: 100%; object-fit: cover;">
+                        <div class="position-absolute bottom-0 start-0 m-3 p-3 bg-dark bg-opacity-75 rounded-3 text-start border border-secondary" style="max-width: 250px;">
+                            <div class="d-flex gap-1 mb-1"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+                            <span class="small fw-mono text-success">Active Code...</span>
+                            <p class="mb-0 text-muted small" style="font-size: 0.75rem;">Figma mockup loaded securely.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="bg-light py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Selected Work</h2>
+                <p class="text-muted">Real-world applications and responsive layouts</p>
+            </div>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                        <div class="bg-soft-indigo p-5 text-center border-bottom">
+                            <h3 class="fw-bold text-indigo">Personal Portfolio</h3>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="mb-2">
+                                <span class="badge bg-light text-secondary border me-1">UI/UX Design</span>
+                                <span class="badge bg-light text-secondary border">Bootstrap 5</span>
+                            </div>
+                            <h5 class="card-title fw-bold text-dark mt-2">Responsive Portfolio Website</h5>
+                            <p class="card-text text-muted">Designing and coding a fully responsive personal portfolio from scratch using semantic code.</p>
+                            <a href="#" class="text-indigo fw-semibold text-decoration-none">Read Case Study &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                        <div class="bg-soft-info p-5 text-center border-bottom">
+                            <h3 class="fw-bold text-info">WordPress Business</h3>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="mb-2">
+                                <span class="badge bg-light text-secondary border me-1">WordPress</span>
+                                <span class="badge bg-light text-secondary border">Theme Customization</span>
+                            </div>
+                            <h5 class="card-title fw-bold text-dark mt-2">WordPress Business Website</h5>
+                            <p class="card-text text-muted">Customizing themes and improving user flows to build dynamic websites for clients.</p>
+                            <a href="#" class="text-indigo fw-semibold text-decoration-none">View Live Site &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upgraded Skills Section -->
+    <section id="skills" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <span class="badge bg-soft-indigo text-indigo px-3 py-2 rounded-pill fw-semibold mb-2">My Toolkit</span>
+                <h2 class="fw-bold text-dark">Technical Capabilities</h2>
+                <p class="text-muted">A structured overview of tools and technologies I use daily.</p>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <!-- Category 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 skill-category-card border">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box bg-soft-indigo p-3 rounded-3 text-indigo me-3 fw-bold fs-4">🎨</div>
+                            <h5 class="fw-bold m-0">UI/UX & Design</h5>
+                        </div>
+                        <p class="text-muted small">Crafting seamless visual journeys and app prototypes.</p>
+                        <div class="d-flex flex-wrap gap-2 mt-2">
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">User Interface (UI)</span>
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">Wireframing</span>
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">Figma Tool</span>
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">Responsive Layouts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 skill-category-card border">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box bg-soft-success p-3 rounded-3 text-success me-3 fw-bold fs-4">💻</div>
+                            <h5 class="fw-bold m-0">Web Development</h5>
+                        </div>
+                        <p class="text-muted small">Writing clean, responsive, and semantic modern code.</p>
+                        <div class="d-flex flex-wrap gap-2 mt-2">
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">HTML5</span>
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">CSS3 / Flexbox</span>
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">Bootstrap 5</span>
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">WordPress Setup</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 skill-category-card border">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box bg-soft-warning p-3 rounded-3 text-warning me-3 fw-bold fs-4">⚙️</div>
+                            <h5 class="fw-bold m-0">Core Engineering</h5>
+                        </div>
+                        <p class="text-muted small">Version control and structured logical programming.</p>
+                        <div class="d-flex flex-wrap gap-2 mt-2">
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">Git / GitHub</span>
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">VS Code</span>
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">Java (Basic)</span>
+                            <span class="badge bg-light text-dark border px-3 py-2 rounded-3">C++ Foundations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-dark mb-4">About Me</h2>
+                    <p class="text-secondary mb-3">I am currently pursuing my <strong>BS in Information Technology (5th Semester)</strong> at Virtual University. My academic background gives me a distinct technical edge in UI/UX design.</p>
+                    <p class="text-secondary mb-4">I understand how software layout impacts programming, allowing me to build pixel-perfect interfaces that look breathtaking and work flawlessly.</p>
+                    
+                    <h5 class="fw-bold text-dark mb-3">Education History</h5>
+                    <ul class="list-unstyled border-start border-2 border-indigo ps-3">
+                        <li class="mb-3">
+                            <strong class="text-dark d-block">BS Information Technology (In Progress)</strong>
+                            <span class="text-muted small">Virtual University | 2023 - 2025</span>
+                        </li>
+                        <li>
+                            <strong class="text-dark d-block">Intermediate - F.Sc (Pre-Medical)</strong>
+                            <span class="text-muted small">Govt. Girls H.S.S | 2019 - 2021</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                    <div class="p-4 bg-white shadow-sm border rounded-4 text-start">
+                        <h5 class="fw-bold text-dark mb-3">Personal Strengths</h5>
+                        <ul class="text-secondary px-3">
+                            <li class="mb-2">Efficient Time Management</li>
+                            <li class="mb-2">Strong Verbal & Written Communication</li>
+                            <li class="mb-2">Critical Thinker & Analytical Approach</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="bg-dark text-white py-5 text-center">
+        <div class="container py-4">
+            <h2 class="fw-bold mb-3 text-white">Let's build something awesome together!</h2>
+            <p class="text-muted mb-4 mx-auto" style="max-width: 500px;">Are you looking for an innovative intern or developer? Drop me an email or call right away.</p>
+            <div class="d-flex justify-content-center flex-wrap gap-3 mb-5">
+                <a href="mailto:fazilatb548@gmail.com" class="btn btn-indigo btn-lg px-4 text-white">fazilatb548@gmail.com</a>
+                <a href="tel:+923141622970" class="btn btn-outline-light btn-lg px-4">+92 314 1622970</a>
+            </div>
+            <hr class="border-secondary mb-4">
+            <div class="d-flex justify-content-between flex-wrap text-muted small px-2">
+                <p class="mb-0">&copy; 2026 Fazilat Bibi. All Rights Reserved.</p>
+                <p class="mb-0">Barki, Lahore Cantt, Punjab, Pakistan</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS CDN bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

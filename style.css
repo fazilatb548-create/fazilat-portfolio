@@ -1,0 +1,67 @@
+/* Typography & Core Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+
+/* Custom Indigo Utility Colors */
+.text-indigo {
+    color: #4f46e5 !important;
+}
+.btn-indigo {
+    background-color: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+}
+.btn-indigo:hover {
+    background-color: #4338ca !important;
+}
+.bg-soft-indigo {
+    background-color: #eef2ff !important;
+}
+.bg-soft-info {
+    background-color: #ecfeff !important;
+}
+.bg-soft-success {
+    background-color: #f0fdf4 !important;
+}
+.bg-soft-warning {
+    background-color: #fffbeb !important;
+}
+.border-indigo {
+    border-color: #4f46e5 !important;
+}
+
+/* Hero Section Height Custom */
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.red { background-color: #ff5f56; }
+.yellow { background-color: #ffbd2e; }
+.green { background-color: #27c93f; }
+
+/* Interactive Hover Animations on Cards */
+.project-card, .skill-category-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover, .skill-category-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Responsive Overrides */
+@media (max-width: 768px) {
+    #hero {
+        text-align: center !important;
+    }
+    #hero .text-start {
+        text-align: center !important;
+    }
+    #hero .d-flex {
+        justify-content: center;
+    }
+}
